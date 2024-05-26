@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation ka pitara </title>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing:border-box ;
+    }
+  .container{
+height: 100vh;
+width: 100vw;
+background-color:beige;  
+border: 5px solid black;
+    }
+    .box{
+        height: 100px;
+        width: 300px;
+        background-color: blue;
+        border-radius: 10px;
+        margin: 10px;
+        position: relative;
+        animation-name:movement;
+        animation-duration: 5s;
+        animation-delay: 0ms;
+        animation-iteration-count: infinite;
+        animation-direction:alternate;
+        animation-timing-function: cubic-bezier(1, -0.36, -1, 1.31);
+        animation-fill-mode: backwards;
+        /* animation-timing-function: ease-in;
+        animation-timing-function: ease-out; */
+        animation: movement  5s infinite linear infinite alternate backwards;
+    }
+    @keyframes movement{
+from{
+top: 0;
+left: 0;
+}
+to{
+top: 0;
+left: 1600px;
+}
+    }
+.box1{
+    height: 100px;
+        width: 300px;
+        background-color: blue;
+        border-radius: 10px;
+        margin: 10px;
+        position: relative;
+        animation:5s ease-in 1s infinite alternate none running  leftmovement  ;
+}
+@keyframes leftmovement{
+from{
+top: 600px;
+left: 1600px;
+}
+to{
+top: 600px;;
+left: 0;
+}
+    }
+.circle{
+    height: 100px;
+        width: 100px;
+        background-color: blue;
+        border-radius: 50px;
+        margin: 10px;
+        top:150px;
+        left:800px;
+        position: relative;
+        animation:3s ease-in-out 1ms infinite alternate none running  circlemovement  ; 
+}
+@keyframes circlemovement{
+0%{
+    top:10px ;
+    left:20px;
+}
+30%{
+    top:50px;
+    left:100px;
+}
+70%{
+    top: 40%;
+    left:90%;
+}
+100%{
+    top: 60%;
+    left:80%;
+}
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+<div class="box">
+</div>
+<div class="box1">  
+</div>
+<div class="circle">
+</div>
+</div>    
+</body>
+</html>

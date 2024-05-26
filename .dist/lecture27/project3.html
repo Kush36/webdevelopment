@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(254, 193, 78);
+    border: 5px solid black;
+    height: 100vh;
+    width: 100vw;  
+    display: flex;
+ flex-direction: row;  
+ justify-content: center;
+  align-items: center;
+   
+}
+.box{
+    display: flex;
+ flex-direction: row;  
+ justify-content: center;
+ border: 1px solid white;
+
+}
+.leftbox{
+    background-color: blueviolet;
+    width: 400px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.sbox{
+    display: flex;
+ flex-direction: row;  
+ justify-content: space-around;
+}  
+
+#x{
+    margin:40px;
+}
+#y{
+    margin: 40px;
+    font-size: 1.2rem;
+}
+#a{
+    margin:25px;
+}
+
+    </style>
+</head>
+<body>
+   <div class="container">
+    <div class="box">
+        <div class="leftbox">
+      <h1 id="x">
+        Get insights that help <br>
+        your business Grow
+      </h1>
+      <p id="y">Lorem ipsum dolor sit amet consectetur <br>
+         adipisicing elit. Tenetur in vel aperiam <br>
+          repudiandae eos labore corporis, mollitia <br>
+           qui beatae molestias.</p>
+        <div class="sbox">
+         <span id="a">   <h1>10K+</h1>
+                <h5>Comments</h5>
+         </span>
+          <span id="a">
+            <h1>10K+</h1>
+            <h5>Comments</h5>
+          </span>
+           <span id="a">
+            <h1>12M+</h1>
+            <h5>Views</h5>
+           </span>
+        </div>
+        </div>
+        <div class="rightbox">
+         <img src="Screenshot 2024-05-23 175759.png" alt="wait" height="450px" width="400px">
+        </div>
+    </div>
+   </div> 
+</body>
+</html>

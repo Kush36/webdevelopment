@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.container{
+    background-color:rgb(174, 174, 74);
+    border: 2px solid black;
+    display: flex;
+    flex-direction:row;
+    /* justify-content: center; */
+    /* for center in box */
+    /* align-items:center; */
+    /* flex-wrap: wrap; */
+    justify-content:start;
+    /* align-items: start;
+    align-content: start; */
+    height: 500px;
+    justify-content: space-around;
+    align-items:start;
+    
+}
+.box{ 
+    height: 100px;
+    width: 100px;
+}
+#box1{
+    background-color: aqua;
+    flex-shrink: 4;
+   
+}
+#box2{
+    background-color: maroon;
+    flex-grow: 5;
+}
+#box3{
+    background-color: magenta;
+}
+#box4{
+    background-color: khaki;
+}
+    </style>
+    <!-- display flex is use in whole container then default row is created of all boxes 
+    use of flex-direction to change the direction of flex  -->
+</head>
+<body>
+    <div class="container">
+    <div id="box1" class="box">box1</div>
+    <div id="box2" class="box">box2</div>
+    <div id="box3" class="box">box4</div>
+    <div id="box4" class="box">box4</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --primary-color:black;
+           --custom-width:300px;
+        }
+        .container{
+           background-color: aquamarine; 
+           border: 2px solid var(--primary-color) ;
+           height: 600px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+        .box{
+            background-color: aqua; 
+            height: 350px;
+            width:var(--custom-width);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            /* box-shadow: 5px 5px 2px 10px; */
+            /* box-shadow: 10px 10px 5px 20px black; */
+            /* box-shadow: 20px 10px 5px 50px ; */
+            /* box-shadow: inset  20px 10px 5px; */
+            /* box-shadow: -20px -10px 5px; */
+            box-shadow: 10px 10px 5px red ,15px 15px 5px var(--primary-color) ;
+            /* box-shadow: 5px(x-axis) 5px(y-axis) 2px(blurr) 10px(in all direction);  */
+            /* box-shadow: 10px(x-axis) 10px(y-axis) 5px(blurr) 20px black; */
+            /* box-shadow: 20px(x-axis) 10px(y-axis) 5px(blurr) 50px ; */
+            /* box-shadow: inset  20px(x-axis) 10px(y-axis) 5px(blurr); */
+            /* box-shadow: -20px(top of x-axis) -10px(left of y-axis) 5px(blurr); */
+            /* box-shadow: 10px 10px 5px red ,15px 15px 5px var(--primary-color) ; */
+
+           /* --primary-color is used as uniiversal declared color if it is declared in :root 
+           --custom-width is used as uniiversal declared width if it is declared in :root  */
+        }
+        #head1{
+        /* text-shadow: 2px 1px white; */
+        /* text-shadow: white 2px 2px  ; */
+        /* text-shadow: 1px 1px; */
+        text-shadow: 1px 1px red,2px 2px white,3.5px 3.5px green;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+        <img id="img1" src="MedicoKushal.jpg" height="100px" width="100px" > 
+         <h3 id="head1">Medico Kushal</h3>  
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Doloremque distinctio nobis beatae error necessitatibus,
+        </p> 
+        </div>
+    </div>
+</body>
+</html>

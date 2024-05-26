@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kushagra Resume</title>
+</head>
+<body>
+    <h2>Kushagra Mishra</h2>
+ <p>Contact: <a href="Kushagramishra4326@gmail.com">Kushagramishra4326@gmail.com</a></p>
+ <p>Linkedin: <a href="https://www.Linkedin.com/in/kushagra-mishra-3b1384296">https://www.Linkedin.com/in/kushagra-mishra-3b1384296</a></p>
+<p>Github: <a href="https://github.com/Kush36">Github.com/kush36</a></p>
+<table>
+    <tr>
+        <td><img src="kushimage.png" alt="click here" height="100px" width="100px"></td>
+        <td>I am passionate to learn Machine learning and Currently i am learning 
+            webdevelopment(HTML,CSS,JavaScript) my expertise in C,C++ language
+             helped me to get global rank 41 in advance c++ competition    </td>
+    </tr> 
+</table>
+<div>
+    <section>
+    <h4>Education </h4>
+    <ul>
+        <li>Bachelor of Technology in Information Technology from KIET group of Institutions</li>
+        <li>Completed my 10th from Vivekanand Academy ICSE board in 2020</li>
+        <li>Completed my 12th from Gurukul Academy ISE board in 2022</li>
+    </ul>
+</section>
+<section>
+    <h3>Work Experience </h3>
+    <h4>Webdeveloper in KASA Group </h4>
+   <ul>Sep 2022 to Sep2023
+    <li>Developed and maintained web application</li>
+    <li>Use of HTML,CSS,Javascript</li>
+    <li>Helped them to make their web application faster</li>
+   </ul>
+</section>
+<section>
+  <ul>
+    <h4>Skills: </h4>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Java</li>
+    <li>C language</li>
+    <li>c++ language</li>
+</ul>
+</section>
+<section>
+    <ul>
+    <h2>Achievements:</h2>
+    <li>Designed electronic eye as well as periscope </li>
+    <li>Build about three projects on webdevelopment </li>
+</ul>
+</section>
+<section>
+    <h2> Projects </h2>
+    <ul>
+        <li>Electronic Eye</li>
+        <p>For dectection of any barrrier in its path using modern AL Technology</p>
+        <li>Libary management System</li>
+        <p>Libary management System-Developed a desktop application by using java swing and MYSQL server</p>
+        <p>Hosted Link:<a href="example.com/ecommerce">example.com/ecommerce</a></p>
+        <p>Github Link: <a href="github.com/lovebabbar/ecommerce">github.com/lovebabbar/ecommerce</a></p>
+    </ul>
+</section>
+<section>
+    <h2>Fequently Asked Questions</h2>
+    <details>
+        <summary>Question1:Who is the owner of this website ?</summary>
+        <p>Kushagra Mishra</p>
+    </details>
+    <details>
+        <summary>Question2:How do i get started ?</summary>
+        <p>To get started,you can refer the user mannual.</p>
+    </details>
+    <details>
+        <summary>Question3:Can I customise the settings? </summary>
+        <p>Yes,you can customise the setting from menu </p>
+    </details>
+    <details>
+        <summary>Question4:Is ther a mobile app available?</summary>
+        <p>Yes,we have both ios as well as android version app on appstore and playstore respectively.. </p>
+    </details>
+</section>
+</div>
+</body>

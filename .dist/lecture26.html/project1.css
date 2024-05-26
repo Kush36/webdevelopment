@@ -1,0 +1,106 @@
+.container{
+    height: 480vh;
+    width: 98vw;
+    overflow: none;
+    border: 5px solid black;
+    background-color:#ffdd9f;
+   
+}
+.nav{
+    background-image: linear-gradient( 109.6deg,  rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+    height: 80px;
+    border: 2px solid black;
+    display: flex;
+     justify-content: space-between;
+    flex-direction: row;
+}
+#about{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 20px;
+}
+#li1{
+    margin: 10px;
+    font-size: 1.8rem;
+}
+#li2{
+    margin: 10px;
+    font-size: 1.8rem;
+}
+#li3{
+    margin: 10px;
+    font-size: 1.8rem;
+}
+.contentbox{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    box-shadow: 5px 5px 20px black;
+}
+.item{
+   background-color: rgb(237, 237, 210);
+   display: flex;
+flex-direction: row;
+justify-content: space-between;
+overflow: none;
+.rightbox{
+    margin: 10px;
+    padding: 10px;
+}
+}
+#gulab{
+font-size: 2rem;
+}
+#recipe{
+    font-size: 2rem;
+}
+#gul{
+    font-size: 2rem;
+}
+.rightbox{
+    position: relative;
+    overflow: hidden;
+    transition: all 0.6s linear;
+   box-shadow: 1px 1px 10px black;
+}
+.rightbox img{
+border-radius : 20px ;
+height: 800px;
+width: 800px;
+transition: all 0.6s linear;
+}
+.rightbox:hover{
+    transform: scale(1.1);
+}
+.rightbox .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(34, 32, 32,0.734);
+    border-radius: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.6s linear 0s;
+} 
+.rightbox .overlay span{
+color:white;
+font-size: 1.5rem;
+}
+.rightbox .overlay:hover{
+opacity: 1;
+}
+.footerbox{
+    background-color: rgb(145, 254, 254);
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
